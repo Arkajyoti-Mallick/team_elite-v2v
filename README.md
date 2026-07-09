@@ -1,6 +1,6 @@
 # team_elite-v2v
 Vibe2vision Hackathon Event.
-Created BY :-
+Participated BY :-
 1.Arkajyoti Mallick 
 contact:-9735298935
 email id :-arkajyotimallick06@gmail.com
