@@ -5,6 +5,9 @@ It empowers women by providing emergency assistance, safe navigation,<br>
 AI-powered guidance, and community-driven incident reporting.<br><br>
 
 <hr>
+Important links:-<br>
+Live deployment link:-https://glittery-horse-4d2f1f.netlify.app/<br>
+Demo Video Link:-https://drive.google.com/file/d/1LSoK3aNiacpaETr_etXdngSjk8YDEsHx/view?usp=sharing
 
 <h2>🚀 Features</h2><br>
 
