@@ -1,156 +1,109 @@
+<h1>🛡️ SafeSphere</h1>
 
-🛡️ SafeSphere
-Tech for Women's Safety & Security
-SafeSphere is an AI-powered women's safety platform built for hackathons. It helps users stay safe through emergency assistance, safe navigation, AI guidance, and community-driven incident reporting.
-🚀 Features
-🔐 Authentication
-Email & Password Login
-User Registration
-Google Sign-In
-Firebase Authentication
-🆘 SOS Emergency
-One-Tap SOS Button
-Live Location Sharing
-Emergency Contact Alerts
-Real-Time SOS Status
-🗺️ Safe Route
-Find Safer Routes
-Google Maps Integration
-Distance & ETA
-Safety Score
-🚨 Report Incident
-Report Harassment
-Report Unsafe Areas
-Upload Images
-Anonymous Reporting
-🤖 AI Assistant
-Safety Guidance
-Emergency Instructions
-Women's Safety Tips
-AI Chat Assistant
-📍 Nearby Help
-Police Stations
-Hospitals
-Emergency Services
-Shelters
-👤 User Profile
-Profile Management
-Emergency Contacts
-Activity History
-🛠️ Admin Panel
-Manage Users
-Verify Reports
-Monitor SOS Alerts
-Dashboard Analytics
-🏗️ Tech Stack
-Frontend
-React.js
-Vite
-Tailwind CSS
-React Router
-Backend
-Firebase Authentication
-Firestore Database
-Firebase Storage
-APIs
-Google Maps API
-Google Gemini API
-Deployment
-Vercel
-📂 Project Structure
-SafeSphere/
-│
-├── public/
-├── src/
-│
-├── assets/
-├── components/
-├── context/
-├── firebase/
-├── hooks/
-├── pages/
-├── services/
-├── utils/
-│
-├── App.jsx
-├── main.jsx
-└── index.css
-⚙️ Installation
-Clone the repository:
-git clone https://github.com/Arkajyoti-Mallick/team_elite-v2v.git
-Go into the project folder:
-cd SafeSphere
-Install dependencies:
-npm install
-Start the development server:
-npm run dev
-🔥 Environment Variables
-Create a .env file in the project root.
-VITE_FIREBASE_API_KEY=
+<h2>Tech for Women's Safety &amp; Security</h2>
 
-VITE_FIREBASE_AUTH_DOMAIN=
+<p>
+SafeSphere is an <strong>AI-powered women's safety platform</strong> built for hackathons.<br>
+It helps users stay safe through emergency assistance,<br>
+safe navigation, AI guidance, and community-driven incident reporting.
+</p>
 
-VITE_FIREBASE_PROJECT_ID=
+<h2>🚀 Features</h2>
 
-VITE_FIREBASE_STORAGE_BUCKET=
+<b>🔐 Authentication</b><br>
+• Email &amp; Password Login<br>
+• User Registration<br>
+• Google Sign-In<br>
+• Firebase Authentication<br><br>
 
-VITE_FIREBASE_MESSAGING_SENDER_ID=
+<b>🆘 SOS Emergency</b><br>
+• One-Tap SOS Button<br>
+• Live Location Sharing<br>
+• Emergency Contact Alerts<br>
+• Real-Time SOS Status<br><br>
 
-VITE_FIREBASE_APP_ID=
+<b>🗺️ Safe Route</b><br>
+• Find Safer Routes<br>
+• Google Maps Integration<br>
+• Distance &amp; ETA<br>
+• Safety Score<br><br>
 
-VITE_GOOGLE_MAPS_API_KEY=
+<b>🚨 Report Incident</b><br>
+• Report Harassment<br>
+• Report Unsafe Areas<br>
+• Upload Images<br>
+• Anonymous Reporting<br><br>
 
-VITE_GEMINI_API_KEY=
-📱 Pages
-Home
-Login
-Sign Up
-Dashboard
-SOS Emergency
-Safe Route
-Report Incident
-AI Assistant
-Nearby Help
-Profile
-Admin Panel
-About
-404 Page
-🔒 Security Features
-Firebase Authentication
-Protected Routes
-Firestore Security Rules
-Secure API Keys
-User Authentication
-HTTPS Deployment
-📦 NPM Packages
-npm install firebase
+<b>🤖 AI Assistant</b><br>
+• Safety Guidance<br>
+• Emergency Instructions<br>
+• Women's Safety Tips<br>
+• AI Chat Assistant<br><br>
 
-npm install react-router-dom
+<b>📍 Nearby Help</b><br>
+• Police Stations<br>
+• Hospitals<br>
+• Emergency Services<br>
+• Shelters<br><br>
 
-npm install react-icons
+<b>👤 User Profile</b><br>
+• Profile Management<br>
+• Emergency Contacts<br>
+• Activity History<br><br>
 
-npm install tailwindcss @tailwindcss/vite
-🚀 Deployment
-Deploy using Vercel:
-npm run build
-Upload the project to GitHub and import it into Vercel.
-👥 Team Elite
-Hrit Panja
-Arkajyoti Mallick
-Adri Roy
-🎯 Hackathon Theme
-SafeSphere: Tech for Women's Safety & Security
-A smart platform designed to improve women's safety through AI, emergency response, safe navigation, and community collaboration.
-🌟 Future Enhancements
-AI Voice Assistant
-Live GPS Tracking
-Push Notifications
-Offline SOS
-Smart Wearable Integration
-Community Safety Heatmap
-Multi-Language Support
-AI Risk Prediction
-📄 License
-This project is developed for educational and hackathon purposes.
+<b>🛠️ Admin Panel</b><br>
+• Manage Users<br>
+• Verify Reports<br>
+• Monitor SOS Alerts<br>
+• Dashboard Analytics<br><br>
+
+<h2>🏗️ Tech Stack</h2>
+
+<b>Frontend</b><br>
+• React.js<br>
+• Vite<br>
+• Tailwind CSS<br>
+• React Router<br><br>
+
+<b>Backend</b><br>
+• Firebase Authentication<br>
+• Firestore Database<br>
+• Firebase Storage<br><br>
+
+<b>APIs</b><br>
+• Google Maps API<br>
+• Google Gemini API<br><br>
+
+<b>Deployment</b><br>
+• Vercel<br><br>
+
+<h2>👥 Team Elite</h2>
+
+• Hrit Panja<br>
+• Sreshtha Das<br>
+• Arkajyoti Mallick<br>
+• Madhurita Ghosh<br><br>
+
+<h2>🎯 Hackathon Theme</h2>
+
+Tech for Women's Safety &amp; Security<br>
+A smart platform designed to improve women's safety through AI,<br>
+emergency response, safe navigation, and community collaboration.<br><br>
+
+<h2>🌟 Future Enhancements</h2>
+
+• AI Voice Assistant<br>
+• Live GPS Tracking<br>
+• Push Notifications<br>
+• Offline SOS<br>
+• Smart Wearable Integration<br>
+• Community Safety Heatmap<br>
+• Multi-Language Support<br>
+• AI Risk Prediction<br><br>
+
+<h2>📄 License</h2>
+
+This project is developed for educational and hackathon purposes.<br><br>
+
 ⭐ If you like this project, give it a star on GitHub!
 
