@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FaShieldAlt } from "react-icons/fa";
+import SOSButton from "./SOSButton";
 
 function Navbar() {
   return (
@@ -114,6 +115,7 @@ function Navbar() {
             >
               Sign Up
             </Link>
+            <SOSButton />
 
           </div>
 

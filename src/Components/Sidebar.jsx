@@ -98,7 +98,7 @@ function Sidebar() {
       </nav>
 
       {/* Bottom */}
-      <div className="absolute bottom-0 w-72 border-t border-purple-500 p-6">
+      <div className="mt-auto border-t border-purple-500 p-6">
 
         <div className="bg-purple-600 rounded-xl p-4">
 

@@ -1,21 +1,17 @@
 import { useState } from "react";
 import { FaRobot, FaPaperPlane, FaUser } from "react-icons/fa";
-
 import ChatBox from "../components/ChatBox";
 
+
 function AIAssistant() {
-  return (
-    <div className="min-h-screen bg-gray-100 py-10 px-5">
+  const [message, setMessage] = useState("");
 
-      <div className="max-w-5xl mx-auto">
-
-        <ChatBox />
-
-      </div>
-
-    </div>
-  );
-}
+  const [chat, setChat] = useState([
+    {
+      sender: "AI",
+      text: "👋 Hello! I'm SafeSphere AI. How can I help you stay safe today?",
+    },
+  ]);
 
   const getResponse = (msg) => {
     const text = msg.toLowerCase();
@@ -64,6 +60,11 @@ function AIAssistant() {
         <h1 className="text-4xl font-bold text-center">
           🤖 AI Safety Assistant
         </h1>
+      </div> 
+      <div className="min-h-screen bg-gray-100 py-10 px-5">
+        <div className="max-w-5xl mx-auto">
+          <ChatBox />
+        </div>
       </div>
 
       <div className="max-w-4xl mx-auto py-10 px-4">

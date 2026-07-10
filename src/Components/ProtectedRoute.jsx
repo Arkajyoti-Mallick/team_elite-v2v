@@ -2,6 +2,24 @@ import { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../firebase/firebase";
+import { useAuth } from "../context/AuthContext";
+import Loading from "./Loading";
+
+function ProtectedRoute({ children }) {
+  const { currentUser } = useAuth();
+
+  if (currentUser === undefined) {
+    return <Loading message="Checking Authentication..." />;
+  }
+
+  if (!currentUser) {
+    return <Navigate to="/login" replace />;
+  }
+
+  return children;
+}
+
+export default ProtectedRoute;
 
 function ProtectedRoute({ children }) {
   const [user, setUser] = useState(undefined);

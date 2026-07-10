@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import { FaShieldAlt, FaMapMarkedAlt, FaRobot, FaPhoneAlt } from "react-icons/fa";
 
@@ -227,6 +228,11 @@ function Home() {
           </p>
 
         </div>
+        <>
+          <Navbar />
+
+          {/* Page Content */}
+        </>
 
       </footer>
 
